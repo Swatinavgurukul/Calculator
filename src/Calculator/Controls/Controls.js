@@ -8,6 +8,8 @@ const Controls = (props) => {
   const renderNewLine = (newLine) => {
     if (newLine) {
       return (
+
+        
         <br />
       );
     }
