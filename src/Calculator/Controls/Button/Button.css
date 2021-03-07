@@ -1,0 +1,26 @@
+.numBtn{
+    background-color : white;
+    color: black;
+}
+.operatorBtn{
+    background-color: crimson;
+    color: white;  
+}
+.clearBtn{
+    width: 166px;
+}
+button{
+  width: 83px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  cursor: pointer;
+  border-radius: 2px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+button:hover{
+    background: grey;
+}
