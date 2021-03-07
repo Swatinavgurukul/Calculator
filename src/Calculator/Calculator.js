@@ -8,13 +8,15 @@ const Calculator = () => {
   const [formula, setFormula] = useState("");
 
   return (
-      <div>
-    <h1>Calculator-</h1>
-    <div className="calcuContainer">
-      <Display displayValue={displayValue} formula={formula} />
-      <Controls displayValue={displayValue} setDisplayValue={setDisplayValue} formula={formula} setFormula={setFormula}/>
+    // Calculator form-
+    <div>
+        <h1>Calculator-</h1>
+        <div className="calcuContainer">
+        <Display displayValue={displayValue} formula={formula} />
+        
+        <Controls displayValue={displayValue} setDisplayValue={setDisplayValue} formula={formula} setFormula={setFormula}/>
+        </div>
     </div>
-      </div>
   );
 }
 
